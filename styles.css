@@ -1,5 +1,8 @@
 /*  your css code here. If applicable */
 .container {
+   display: flex;
+  align-items:center;
+  justify-content:center;
   width: 300px;
   margin: 50px auto;
   padding: 20px;
@@ -10,7 +13,6 @@
 }
 
 .red, .green, .yellow {
-  display: inline-block;
   width: 60px;
   height: 60px;
   border-radius: 50%;
