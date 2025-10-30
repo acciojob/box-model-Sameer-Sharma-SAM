@@ -1,32 +1,29 @@
-/*  your css code here. If applicable */
-.container {
-   display: flex;
-  align-items:center;
-  justify-content:center;
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  border: 2px solid #333;
-  border-radius: 20px;
-  text-align: center;
-  background:gray;
-}
+  .traffic-light {
+    width: 300px;
+    height: 120px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+  }
 
-.red, .green, .yellow {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin: 0 10px;
-}
+  .light {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
 
-.red {
-  background-color: #ff4343;
-}
+  .green {
+    background-color: green;
+  }
 
-.green {
-  background-color: #3ec46b;
-}
+  .yellow {
+    background-color: yellow;
+  }
 
-.yellow {
-  background-color: #ffe854;
-}
+  .red {
+    background-color: red;
+  }
